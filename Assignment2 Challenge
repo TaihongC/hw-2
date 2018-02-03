@@ -1,0 +1,10 @@
+function setUp() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  strokeWeight(3);
+  stroke('green');
+  line(random(width), 0, random(width), random(height));
+  
+}
