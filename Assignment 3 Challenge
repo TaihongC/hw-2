@@ -1,0 +1,14 @@
+background(255);
+colorMode(HSB,300,40,40);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(30,20,30,75);
+  beginShape();
+vertex(30, 20);
+vertex(85, 20);
+vertex(85, 75);
+vertex(30, 75);
+endShape(CLOSE);
+}
