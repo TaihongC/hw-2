@@ -1,0 +1,100 @@
+background(340);
+
+stroke(51);
+strokeWeight(6);
+rect(5, 5, 330,330);
+
+// left 1 
+
+stroke('#222222');
+noFill();
+strokeWeight(5);
+rect(5,5,60,50);
+
+// left 2 
+stroke('#222222');
+strokeWeight(6);
+fill('red');
+rect(5, 60, 60,120);
+
+
+// left 3 
+stroke('#222222');
+noFill();
+strokeWeight(5);
+rect(5, 180, 40, 80);
+
+// left 3.5 
+stroke('#222222');
+strokeWeight(5);
+rect(45, 180, 40, 80);
+
+// left 4
+stroke('#222222');
+strokeWeight(5);
+fill(color(0, 0, 255));
+rect(5,260,80,75);
+
+
+//middle
+
+stroke('#222222');
+strokeWeight(5);
+fill(255, 204, 0);
+rect(60, 5, 170, 170);
+
+stroke('#222222');
+strokeWeight(5);
+fill(255,0,0)
+rect(85,175,160,50);
+
+stroke('#222222');
+strokeWeight(5);
+fill(255, 204, 0)
+rect(85,225,80,110);
+
+
+stroke('#222222');
+strokeWeight(5);
+fill(color(0, 0, 255))
+rect(165,225,80,110);
+
+
+//right
+
+stroke('#222222');
+strokeWeight(5);
+fill('red')
+rect(230,5,100,40);
+
+stroke('#222222');
+strokeWeight(5);
+fill(255, 204, 0);
+rect(280,45,50,130);
+
+strokeWeight(5);
+noFill();
+stroke('#222222');
+rect(230,45,50,65);
+
+strokeWeight(5);
+noFill();
+stroke('#222222');
+rect(230,110,50,65);
+
+stroke('#222222');
+strokeWeight(5);
+fill('red')
+rect(245,175,85,80);
+
+stroke('#222222');
+strokeWeight(5);
+noFill();
+rect(245,255,85,40);
+
+stroke('#222222');
+strokeWeight(5);
+noFill();
+rect(245,295,85,40);
+
+
